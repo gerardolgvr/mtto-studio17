@@ -1,3 +1,4 @@
+import '../imports/client/js/_main.js';
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
