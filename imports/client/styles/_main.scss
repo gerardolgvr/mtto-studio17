@@ -242,10 +242,10 @@ a:hover, a:focus {
     border: 0px solid rgba(0, 0, 0, 0);
     background: #70cbce;
     margin: auto;
-    min-height: 60px;
+    min-height: 40px;
     padding-top: 8px;
     position: fixed;
-    top: -60px;
+    top: -70px;
     transition: top 0.4s ease 0s;
 }
 
@@ -279,7 +279,8 @@ a:hover, a:focus {
 }
 
 .logo img {
-	margin-top: 6px;
+	margin-top: -2px;
+  margin-bottom: 10px;
 }
 
 
@@ -288,7 +289,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-bg.jpg) no-repeat center center;
+  background: url(../images/imagen.gif) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -376,7 +377,7 @@ header {
 
 
 #be-the-first {
-  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
+  background: url(../images/copia2.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -406,7 +407,7 @@ hr.line {
 
 .iphone {
     position: relative;
-    height: 200px;
+    height: 150px;
 }
 
 .iphone img {
@@ -454,9 +455,16 @@ footer {
   padding: 40px 0px;
 }
 
-.social li a:hover {
+.social li a:hover, .socialTop li a:hover {
   opacity: 0.5;
 }
+
+.socialTop li a, .socialTop li {
+  color: white;
+}
+
+
+
 
 
 
