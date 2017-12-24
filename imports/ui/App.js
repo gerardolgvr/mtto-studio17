@@ -45,7 +45,7 @@ export default class App extends React.Component {
             <br />
             <p className="lead wow fadeIn" data-wow-delay="0.5s">Nuestro sitio se encuentra en construcción <br/>
             Estamos trabajando para sorprenderte pronto.</p>
-            <ul className="list-inline socialTop">
+            <ul className="list-inline socialTop wow fadeIn" data-wow-delay="0.5s">
               <li>Síguenos en nuestras redes sociales</li>
               <li><a href="#"><i className="fa fa-twitter"></i></a></li>
               <li><a href="https://www.facebook.com/Studio17MX/" target="_blank"><i className="fa fa-facebook"></i></a></li>
@@ -53,7 +53,7 @@ export default class App extends React.Component {
             </ul>
 
 
-            <div className="row">
+            {/*<div className="row">
               <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                 <div className="row">
                   <div className="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
@@ -64,7 +64,7 @@ export default class App extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
           </div>
         </div>
@@ -96,18 +96,18 @@ export default class App extends React.Component {
 		    <div className="row">
 			    <div className="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
 				    <hr className="line purple"/>
-				    <h3>App Feature One Here</h3>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut est facilisis, eu elementum mi volutpat. Pellentesque ac tristique nisi.</p>
+				    <h3>PAQUETES FOTOGRAFICOS</h3>
+				    <p>Gran variedad de increibles bases en mdf y molduras así como varias piezas a elegir, podras hacer combinaciones de piezas. Perfectos para reconocer y agradecer a aquellos quienes su apoyo ha sido inigualable.</p>
 			    </div>
 			    <div className="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
 				    <hr  className="line blue"/>
-				    <h3>App Feature One Here</h3>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut est facilisis, eu elementum mi volutpat. Pellentesque ac tristique nisi.</p>
+				    <h3>FIESTA DE GRADUACION</h3>
+				    <p>Una noche inolvidable, eventos completos de graduación desde cena, musica y baile todo con el mejor servicio..</p>
 			    </div>
 			    <div className="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
 				    <hr  className="line yellow"/>
-				    <h3>App Feature One Here</h3>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut est facilisis, eu elementum mi volutpat. Pellentesque ac tristique nisi.</p>
+				    <h3>VIAJE GENERACIONAL</h3>
+				    <p>¡Una ultima aventura! disfruta de los mejores destinos al mejor precio, viajes todo incluido a la riviera maya.</p>
 			    </div>
 		    </div>
 	    </div>
